@@ -4,8 +4,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    box-sizing: border-box;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit; 
+}
 
 header {
     background-color: #333;
@@ -45,5 +49,22 @@ section {
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
 }
 
+.assignment h2 {
+    margin-top: 0; 
+}
+
+.assignment p {
+    margin-bottom: 10px;
+}
+
+.assignment a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
