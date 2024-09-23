@@ -68,8 +68,8 @@ section {
 
 .assignment a {
     display: block;
-    color: #333;
-    text-decoration: none;
+    color: #007BFF;  
+    text-decoration: underline;
     margin-top: 10px;
     font-weight: bold;
 }
