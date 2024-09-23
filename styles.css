@@ -33,6 +33,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+a {
+    color: #007BFF;  
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }
